@@ -1,0 +1,97 @@
+
+.main {
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+   }
+
+/*# sourceMappingURL=style.css.map */
+
+.nav-item {
+    & > a {
+        color: #8E8E93 !important;
+    }
+}
+
+.nav-link {
+    font-size: 10pt !important;
+}
+.padt-5 {
+    padding-top: 7rem !important;
+}
+.bg-blue {
+    background: linear-gradient(45deg, #003b22
+    0%, #009151 50%,  #00b06f 100%);
+}
+
+.translate-x {
+    transform: translateX(280px);
+}
+
+.lower-dash{
+    background-color: #00b06f;
+    width: 240px;
+    height: 10px;
+}
+
+.w-40 {
+    width: 40%;
+}
+.line-height-15 {
+    line-height: 1.5rem;
+}
+
+.translate-nx {
+    transform: translateX(-240px);
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden !important;
+}
+.w {
+    width: 500px;
+}
+
+.px-10{
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+}
+
+.w-250p {
+    width: 250px;
+}
+
+.footer {
+    // height: 300px;
+}
+
+.h-330p  {
+    height: 330px;
+}
+
+.footer-nav .nav-item > a {
+    color: white !important;
+    transition: color 200ms ease-in;
+
+    &:hover {
+        color: #003b22 !important;
+    }
+
+}
+
+.navbar-nav > .nav-item > a {
+    transition: color 200ms ease-in;
+}
+
+.navbar-nav > .nav-item {
+    transition: color 200ms ease-in;
+    &:hover {
+        background-color: rgba($color: #003b22, $alpha: 0.05);
+        & > a {
+            color: #003b22 !important;
+        }
+    }
+}
+.navbar-brand > img {
+    width: 60px;
+}
