@@ -66,4 +66,8 @@ body {
 .navbar-brand > img {
   width: 60px; }
 
+@media (max-width: 576px) {
+  .w-xs-100 {
+    width: 100% !important; } }
+
 /*# sourceMappingURL=style.css.map */

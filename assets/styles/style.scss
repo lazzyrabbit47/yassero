@@ -95,3 +95,11 @@ body {
 .navbar-brand > img {
     width: 60px;
 }
+
+// custom responsiveness
+
+@media (max-width: 576px) {
+    .w-xs-100 {
+        width: 100% !important;
+    }
+}
