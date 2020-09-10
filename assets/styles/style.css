@@ -69,5 +69,26 @@ body {
 @media (max-width: 576px) {
   .w-xs-100 {
     width: 100% !important; } }
+@media (min-width: 576px) {
+  .w-sm-100 {
+    width: 100% !important; } }
+@media (max-width: 576px) {
+  .p-font-size {
+    line-height: 2rem;
+    font-size: 1rem; } }
+@media (min-width: 576px) {
+  .p-font-size {
+    line-height: 2.5rem;
+    font-size: 1.5rem; } }
 
-/*# sourceMappingURL=style.css.map */
+.table-container {
+  min-width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none; }
+  .table-container::-webkit-scrollbar {
+    display: none; }
+  .table-container table {
+    border-collapse: collapse;
+    white-space: nowrap; }
